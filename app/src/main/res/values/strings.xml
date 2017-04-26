@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FlipPad</string>
+    <string name="appName">FlipPad</string>
+    <string name="version">V.1.0.0</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="landing">Welcome to the Second Activity</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/background"
+    tools:context="me.goodnesskayode.flippad.SplashScreen">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/appName"
+        android:layout_below="@+id/logo"
+        android:textColor="@color/colorPrimary"
+        android:textSize="32dp"
+        android:paddingTop="14dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/version"
+        android:layout_alignBottom="@id/appName"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        />
+
+</RelativeLayout>
